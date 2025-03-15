@@ -12,8 +12,12 @@
   ],
   "author": "Mazad",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "parcel": "^2.13.3",
-    "parsel": "^0.3.0"
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }

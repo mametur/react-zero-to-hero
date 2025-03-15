@@ -1,0 +1,25 @@
+{
+  "name": "react-zero-to-hero",
+  "version": "1.0.0",
+  "description": "This is react learning repo",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "js"
+  ],
+  "author": "Mazad",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
