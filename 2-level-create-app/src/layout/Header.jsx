@@ -1,7 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 const Header = () => {
+  const [login, setLogin] = useState(false);
+
+  const handleLogin = () => {
+    setLogin(!login);
+  };
   return (
     <div className="header">
       <div className="logo-container">
@@ -19,6 +25,9 @@ const Header = () => {
           <li>About Us</li>
           <li>Contact Us</li>
           <li>Cart</li>
+          <button className="Login" onClick={handleLogin}>
+            {login ? "Login" : "logout"}
+          </button>
         </ul>
       </div>
     </div>

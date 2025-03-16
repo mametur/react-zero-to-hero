@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 
 // React element
 const jsxHeader = <h1>Hello wordl </h1>;
-console.log("jsx header", jsxHeader);
 
 // React Component
 const myName = "Azad";
