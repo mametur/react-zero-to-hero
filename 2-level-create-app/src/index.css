@@ -15,37 +15,6 @@ body,
   width: 100vw; /* Viewport width */
 }
 
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-bottom: 1 solid;
-  padding: 10px;
-}
-.logo-container {
-  display: flex;
-  align-items: center;
-  max-width: 150px;
-  .logo {
-    width: 200px;
-  }
-}
-.nav-items-container {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  padding-right: 10px;
-}
-
-.nav-list {
-  margin-left: auto;
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-}
-ul {
-  list-style-type: none;
-}
 .body {
   flex-grow: 1;
 }
@@ -100,6 +69,7 @@ ul {
   background-color: #f3eeee;
   border-radius: 29px;
   width: 400px;
+  height: 200px;
   display: flex;
   align-items: center;
   font-size: 12px;
@@ -133,4 +103,12 @@ ul {
 .search-container {
   display: flex;
   padding: 10px 5px;
+}
+.home,
+.about,
+.contact,
+.shimmer-container,
+.error-page,
+.restaurantmenu-container {
+  flex: 1;
 }
